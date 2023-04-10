@@ -38,6 +38,19 @@
    ctrl + c
    ```
 
+## E2E 測試
+1. 確認 server, database 已經成功啟動
+
+2. 開一個新的終端機
+3. 使用指令啟動 Cypress
+   ```bash
+   npm run cy
+   ```
+4. 點擊 E2E Testing 圖示
+5. 選擇 Chrome 瀏覽器，點擊 Start E2E Testing in Chrome 按鈕
+6. 瀏覽器會開啟 Cypress 提供的 Web，點擊 test.cy.js
+7. Enjoy it!
+
 ## 開發工具
 
 - Node.js 14.16.0
